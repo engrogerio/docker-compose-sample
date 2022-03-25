@@ -20,4 +20,4 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Staging
     volumes:
-      - /home/ec2-user/p2papi:/app/App_Data
+      - /home/ec2-user/p2papi/p2papi:/app/
